@@ -1,0 +1,8 @@
+# JWT Security Tester v2.0 — Dependencies
+# Install with: pip install -r requirements.txt
+
+cryptography>=41.0.0   # RSA key analysis, x5c certificate parsing, JWK operations
+pyfiglet>=0.8.0        # ASCII art banner (slant font)
+
+# Python standard library (no install needed):
+#   argparse, base64, hashlib, hmac, json, os, re, sys, time, urllib, datetime
